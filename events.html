@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+     <script src="events.js"></script>
+</head>
+
+<body>
+    <form>
+        <input type="button" onclick="clickevent()" value="Cick Me" style="margin-left: 50%;"/>
+    </form>
+    <h2 id="key" onmouseover="over()" onmouseout="out()"> Original Text
+    </h2>
+
+
+<h2>OnKeyup event</h2>
+<p>The function transforms the input field to upper case. Enter your class: <input type="text" id="cd" onkeyup="myFunction2()"></p>
+<h2>Focus Event</h2>
+<p>
+    First name: <input type="text" id="fname" onfocus="myFunction(this.id)"> 
+    Last name: <input type="text" id="lname" onfocus="myFunction(this.id)">
+</p>
+</body>
+</html> 

@@ -1,0 +1,58 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif; font-weight: bold;
+    background-color: #dedfdf; font-size: large;
+    }
+    
+    
+    h1 {
+    text-align: center; color: #333;
+    }
+    
+    
+    form {
+    max-width: 600px; margin: 0 auto;
+    padding: 20px;
+    background-color: #97e3e9f1; border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    
+    input[type="text"], input[type="password"], input[type="tel"]
+    select, textarea {
+    width: 100%; padding: 10px; margin: 5px 0;
+    border: 1px solid #b8d7e6; border-radius: 5px;
+    box-sizing: border-box; font-size: 16px;
+    }
+    
+    
+    select {
+    width: 100%; padding: 10px; margin: 5px 0;
+    border: 1px solid #ccc; border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff; appearance: none;
+-webkit-appearance: none;
+-moz-appearance: none;
+}
+
+
+textarea {
+resize: vertical;
+}
+
+
+input[type="submit"] { background-color: #4566c4; color: #fff;
+border: none; border-radius: 5px;
+padding: 10px 20px; cursor: pointer;
+font-size: 16px;
+}
+
+
+input[type="submit"]:hover { background-color: #0056b3;
+}
+
+
+.error-message { color: red;
+    font-size: 14px; margin-top: 5px;
+}
+        

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Greet User</title>
+    <script>
+        function greetUser() {
+            // Prompt for user's name
+            const userName = prompt("Please enter your name:");
+            if (userName) {
+                document.getElementById("message").innerText = `Hello ${userName}`;
+            } else {
+                document.getElementById("message").innerText = "Hello Stranger";
+            }
+        }
+    </script>
+</head>
+<body onload="greetUser()">
+    <div id="message"></div>
+</body>
+</html>

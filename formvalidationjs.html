@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Form Validation</title>
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta name="description" content="" />
+<link href="formvalidationjs.css" rel="stylesheet">
+</head>
+<body>
+<h1>REGISTRATION FORM</h1>
+<form name="RegForm" onsubmit="return validateForm()">
+<p>
+<label for="f-name">First Name:</label>
+<input type="text" id="f-name" name="f-name" placeholder="Enter your first name" />
+<span id="fname-error" class="error-message"></span>
+</p>
+<p>
+    <label for="l-name">Last Name:</label>
+    <input type="text" id="l-name" name="l-name" placeholder="Enter your last name" />
+    <span id="lname-error" class="error-message"></span>
+    </p>
+    <p>
+    <label for="address">Address:</label>
+    <input type="text" id="address" name="Address" placeholder="Enter your address" />
+    <span id="address-error" class="error-message"></span>
+    </p>
+    <p>
+    <label for="email">E-mail Address:</label>
+    <input type="text" id="email" name="EMail" placeholder="Enter your email" />
+    <span id="email-error" class="error-message"></span>
+    </p>
+    <p>
+    <label for="number">Phone Number:</label>
+    <input type="tel" id="number" name="Number" placeholder="Enter your number."/>
+    <span id="number-error" class="error-message"></span>
+    </p>
+    <p>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="Password" />
+    <span id="password-error" class="error-message"></span>
+</p>
+
+
+<p>
+<input type="submit" value="Submit" name="Submit" />
+</p>
+</form>
+<script src="formvalidationjs.js"></script>
+
+
+</body>
+</html>     
